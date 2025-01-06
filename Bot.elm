@@ -1420,7 +1420,7 @@ warpToRandomAsteroidBelt context =
     useContextMenuCascadeOnListSurroundingsButton
         (useMenuEntryWithTextContaining "asteroid belts"
             (useRandomMenuEntry (context.randomIntegers |> List.head |> Maybe.withDefault 0)
-                (useMenuEntryWithTextContaining "Warp to"
+                (useMenuEntryWithTextContaining "Warp to Within"
                     (useMenuEntryWithTextContaining "Within 0 m" menuCascadeCompleted)
                 )
             )
