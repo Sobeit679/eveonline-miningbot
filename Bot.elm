@@ -33,22 +33,22 @@
    Here is an example of a complete settings string:
 
    ```
-	run-away-shield-hitpoints-threshold-percent = 89
-	unload-station-name = Change me
-	unload-structure-name = Change me
-	unload-fleet-hangar-percent = 99
-	unload-mining-hold-percent = 99
-	activate-module-always = Afterburner
-	hide-when-neutral-in-local = no
-	dock-when-without-drones = yes
-	repair-before-undocking = no
-	targeting-range = 16500
-	mining-module-range = 16500
-	bot-step-delay = 1500 (value between 1300-1500)
-	select-instance-pilot-name = Pilot
-	include-asteroid-pattern = Rich Plagiocase
-	mining-site = Name of Asteroid Belt
-	compress-from-mining-hold = yes
+   run-away-shield-hitpoints-threshold-percent = 89
+   unload-station-name = Change me
+   unload-structure-name = Change me
+   unload-fleet-hangar-percent = 99
+   unload-mining-hold-percent = 99
+   activate-module-always = Afterburner
+   hide-when-neutral-in-local = no
+   dock-when-without-drones = yes
+   repair-before-undocking = no
+   targeting-range = 16500
+   mining-module-range = 16500
+   bot-step-delay = 1500 (value between 1300-1500)
+   select-instance-pilot-name = Pilot
+   include-asteroid-pattern = Rich Plagiocase
+   mining-site = Name of Asteroid Belt
+   compress-from-mining-hold = yes
    ```
 
    The bot searches the configured structure or station name in the 'Locations' window and all overview windows.
